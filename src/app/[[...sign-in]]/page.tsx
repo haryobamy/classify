@@ -19,7 +19,7 @@ const LoginPage = () => {
       router.push(`/${role}`);
       // router.push(`/admin`);
     }
-  }, [user, router]);
+  }, [user, router, isLoaded]);
 
   return (
     <div className='h-screen flex items-center justify-center bg-lamaSkyLight'>
